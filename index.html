@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fadhil Zakki Zulva | Web Developer</title>
+  <style>
+    /* Global Style */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Smooth fade-in */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeIn 1.2s ease forwards;
+    }
+    .fade-in.delay-1 { animation-delay: 0.3s; }
+    .fade-in.delay-2 { animation-delay: 0.6s; }
+    .fade-in.delay-3 { animation-delay: 0.9s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(to right, #0a74da, #0d4c92);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      transition: transform 0.3s ease;
+    }
+    header img:hover {
+      transform: scale(1.08) rotate(2deg);
+    }
+    header h1 {
+      margin: 20px 0 10px;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    /* Section */
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0a74da;
+      font-size: 2em;
+      position: relative;
+    }
+    section h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background: #0a74da;
+      display: block;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* Portfolio */
+    .portfolio-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .portfolio-items div {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .portfolio-items div:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    /* Contact */
+    .contact ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    .contact ul li {
+      margin: 10px 0;
+    }
+    .contact a {
+      color: #0a74da;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .contact a:hover {
+      color: #0d4c92;
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background: #0d4c92;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="IMG-20210916-WA0015.jpg" alt="Foto Fadhil Zakki Zulva" class="fade-in">
+    <h1 class="fade-in delay-1">Fadhil Zakki Zulva</h1>
+    <p class="fade-in delay-2">Web Developer</p>
+  </header>
+
+  <section class="about fade-in delay-1">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya Fadhil Zakki Zulva, seorang Web Developer yang senang membangun website
+      modern, responsif, dan profesional. Dengan semangat belajar yang tinggi,
+      saya selalu berusaha untuk terus mengembangkan skill di bidang teknologi
+      dan pemrograman web.
+    </p>
+  </section>
+
+  <section class="portfolio fade-in delay-2">
+    <h2>Portofolio</h2>
+    <div class="portfolio-items">
+      <div><h3>Proyek 1</h3><p>Deskripsi singkat tentang proyek ini.</p></div>
+      <div><h3>Proyek 2</h3><p>Deskripsi singkat tentang proyek ini.</p></div>
+      <div><h3>Proyek 3</h3><p>Deskripsi singkat tentang proyek ini.</p></div>
+    </div>
+  </section>
+
+  <section class="contact fade-in delay-3">
+    <h2>Kontak</h2>
+    <ul>
+      <li>Email: <a href="mailto:fadhilzakki143@gmail.com">fadhilzakki143@gmail.com</a></li>
+      <li>WhatsApp: <a href="https://wa.me/6282131169262">082131169262</a></li>
+      <li>Instagram: <a href="https://instagram.com/zaki.zulva">@zaki.zulva</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/fadhil-zakki-zulva">Fadhil Zakki Zulva</a></li>
+      <li>GitHub: <a href="https://github.com/jackmong">jackmong</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fadhil Zakki Zulva. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
