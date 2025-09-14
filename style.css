@@ -1,288 +1,125 @@
-/* === FONT GLOBAL === */
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f5f6f7;
+/* Global */
+* {
   margin: 0;
   padding: 0;
-  color: #222;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-}
-
-/* === HEADER === */
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: #fff;
-}
-
-.site-header .brand {
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-}
-
-.site-header .logo-dot {
-  width: 12px;
-  height: 12px;
-  background: black;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.nav a {
-  margin-left: 20px;
-  text-decoration: none;
+  background: #f9f9f9;
   color: #222;
-  font-weight: 500;
 }
 
-.nav .btn {
-  background: black;
-  color: white;
-  padding: 8px 16px;
-  border-radius: 25px;
-}
-
-/* === HERO SECTION === */
+/* Hero Section */
 .hero {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr; /* kiri teks, kanan foto */
   align-items: center;
-  gap: 30px;
-  padding: 60px 40px;
+  gap: 50px;
+  padding: 80px 10%;
+  min-height: 100vh;
 }
 
-.hero-left .hero-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 44px;
-  line-height: 1.2;
+.hero-left {
+  max-width: 600px;
+}
+
+.kicker {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 48px;
   font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  color: #ff6600;
 }
 
 .hero-sub {
-  margin: 20px 0;
+  font-size: 18px;
   color: #555;
-  font-size: 16px;
+  margin-bottom: 30px;
 }
 
+/* Buttons */
 .cta {
   display: flex;
   gap: 15px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 30px;
-  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 8px;
   text-decoration: none;
-  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  background: #ff6600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e05500;
 }
 
 .btn.secondary {
-  background: #fff;
-  border: 2px solid #222;
-  color: #222;
+  background: transparent;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+}
+
+.btn.secondary:hover {
+  background: #ff6600;
+  color: #fff;
+}
+
+/* Hero Center (Foto + Stats) */
+.hero-center {
+  text-align: center;
 }
 
 .hero-center img {
-  max-width: 100%;
-  border-radius: 12px;
-}
-
-.hero-right {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.hero-right .stat {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* === FEATURES === */
-.features {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 40px;
-}
-
-.feature {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.feature h4 {
-  margin: 0 0 10px;
-  font-size: 16px;
-}
-
-/* === TRUSTED === */
-.trusted {
-  text-align: center;
-  padding: 40px;
-}
-
-.trusted-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.trusted-item {
-  background: #f1f1f1;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-/* === CONTENT SECTION === */
-.content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 30px;
-  padding: 60px 40px;
-}
-
-.content-left h2 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.contact-card {
-  background: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-/* === PORTFOLIO === */
-.portfolio {
-  padding: 60px 40px;
-}
-
-.card {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.card img {
   width: 100%;
-  display: block;
+  max-width: 420px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
 
-.card-body {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.hero-stats {
+  margin-top: 25px;
 }
 
-.card-title {
+.hero-stats .stat {
+  font-size: 20px;
   font-weight: 700;
-  font-size: 18px;
+  margin-bottom: 12px;
 }
 
-.card-meta {
+.hero-stats small {
+  display: block;
   font-size: 14px;
-  color: #777;
-}
-
-/* === FOOTER === */
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  background: #f1f1f1;
+  font-weight: 400;
   color: #666;
 }
 
-/* === RESPONSIVE (TABLET) === */
-@media (max-width: 1024px) {
-  .hero {
-    grid-template-columns: 1fr 1fr;
-  }
-  .features {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .trusted-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .content {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* === RESPONSIVE (MOBILE) === */
-@media (max-width: 768px) {
+/* Responsive */
+@media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
     text-align: center;
   }
 
-  .hero-left .hero-title {
-    font-size: 32px;
-  }
-
-  .hero-center {
-    margin-top: 20px;
-  }
-
-  .hero-right {
-    margin-top: 20px;
-    text-align: center;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .cta {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  .cta .btn {
-    width: 90%;
-    max-width: 300px;
-  }
-
-  .features {
-    grid-template-columns: 1fr;
-  }
-
-  .trusted-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* === RESPONSIVE (SMALL MOBILE) === */
-@media (max-width: 480px) {
-  .hero-left .hero-title {
-    font-size: 26px;
-    line-height: 1.3;
-  }
-
-  .hero-sub {
-    font-size: 14px;
-    padding: 0 10px;
-  }
-
-  .nav {
-    display: flex;
-    gap: 12px;
-  }
-
-  .nav a {
-    font-size: 14px;
-    margin-left: 0;
+  .hero-left {
+    margin-bottom: 40px;
   }
 }
