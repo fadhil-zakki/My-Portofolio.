@@ -350,6 +350,16 @@ footer {
     gap: 12px;
   }
 
+/* === CERTIVIKAT=== */
+  .certificate-img {
+  width: 250px;          /* atur ukuran sertifikat */
+  height: auto;          /* biar proporsional */
+  display: block;        /* biar bisa diatur posisi */
+  margin: 0 auto 15px;   /* center + jarak bawah */
+  border-radius: 8px;    /* sudut agak melengkung */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* opsional: efek bayangan */
+}
+
   .nav a {
     font-size: 14px;
     margin-left: 0;
