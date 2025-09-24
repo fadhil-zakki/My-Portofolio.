@@ -350,7 +350,7 @@ footer {
     gap: 12px;
   }
 
-/* === CERTIVIKAT=== */
+/* === CERTIFICATE === */
 /* Section Sertifikat */
 .certificates {
   display: grid;
@@ -385,10 +385,10 @@ footer {
 }
 
 .certificate-card:hover .certificate-img {
-  transform: scale(1.05); /* zoom halus waktu hover */
+  transform: scale(1.05);
 }
 
-/* Responsive: khusus HP */
+/* Responsive khusus HP */
 @media (max-width: 480px) {
   .certificate-img {
     width: 140px;
@@ -399,5 +399,11 @@ footer {
   .nav a {
     font-size: 14px;
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .certificates {
+    grid-template-columns: repeat(3, 1fr); /* paksa 3 kolom */
   }
 }
