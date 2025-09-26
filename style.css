@@ -353,11 +353,11 @@ footer {
 /* === CERTIFICATE === */
 .certificates {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* fleksibel */
   gap: 20px;
   margin-top: 30px;
   width: 100%;
-  max-width: 1200px; /* biar cukup untuk 3 kolom */
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -379,7 +379,8 @@ footer {
 
 /* Gambar sertifikat */
 .certificate-img {
-  width: 200px;
+  width: 100%;        /* ikut lebar card */
+  max-width: 250px;   /* batas maksimal */
   height: auto;
   margin: 0 auto 10px;
   border-radius: 6px;
@@ -394,14 +395,14 @@ footer {
 /* Responsive khusus HP */
 @media (max-width: 480px) {
   .certificate-img {
-    width: 140px;
+    max-width: 140px; /* biar lebih kecil di hp */
   }
 }
 
-/* Responsive khusus Laptop/Desktop */
+/* Paksa 3 kolom di laptop ke atas */
 @media (min-width: 1024px) {
   .certificates {
-    grid-template-columns: repeat(3, 1fr); /* paksa 3 kolom */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
