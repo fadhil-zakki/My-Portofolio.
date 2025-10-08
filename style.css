@@ -191,14 +191,6 @@ body {
   background: #ffffff;
 }
 
-.profile-bg {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, #00c6ff, #0072ff);
-  filter: blur(35px);
-  z-index: 1;
-}
-
 .profile-photo {
   width: 100%;
   height: auto; /* biar tinggi mengikuti proporsi gambar */
