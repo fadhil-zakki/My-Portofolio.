@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "role": "Frontend Developer",
+    "company": "Tech Startup Co.",
+    "location": "Bandung, Indonesia",
+    "period": "Jan 2024 – Present",
+    "description": "Built and maintained React-based web applications. Collaborated with design and backend teams to deliver scalable features.",
+    "skills": ["React", "TypeScript", "REST API", "Figma"],
+    "type": "Full-time"
+  },
+  {
+    "id": 2,
+    "role": "Web Developer Intern",
+    "company": "Digital Agency XYZ",
+    "location": "Remote",
+    "period": "Jul 2023 – Dec 2023",
+    "description": "Developed landing pages and internal tools using Next.js. Improved site performance by 40% through optimization techniques.",
+    "skills": ["Next.js", "CSS", "WordPress", "SEO"],
+    "type": "Internship"
+  },
+  {
+    "id": 3,
+    "role": "Freelance Developer",
+    "company": "Self-Employed",
+    "location": "Remote",
+    "period": "Jan 2022 – Jun 2023",
+    "description": "Delivered 10+ websites and web applications for small businesses across various industries.",
+    "skills": ["HTML", "CSS", "JavaScript", "PHP"],
+    "type": "Freelance"
+  }
+]

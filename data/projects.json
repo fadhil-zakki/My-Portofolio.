@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Simulasi Jaringan LAN",
+    "description": "Membuat simulasi jaringan lokal sederhana menggunakan Cisco Packet Tracer. Konfigurasi switch, router, dan IP addressing dasar.",
+    "image": "assets/images/projects/lan-simulation.jpg",
+    "tags": ["Packet Tracer", "Networking", "LAN"],
+    "icon": "server",
+    "link": ""
+  },
+  {
+    "title": "WO Media Campaign",
+    "description": "Mengelola konten visual untuk event pernikahan sebagai freelancer — foto, video pendek, dan konten Instagram klien.",
+    "image": "assets/images/projects/wo-media.jpg",
+    "tags": ["Foto", "Video", "Canva", "Instagram"],
+    "icon": "heart",
+    "link": ""
+  },
+  {
+    "title": "Tim Bogor Reference",
+    "description": "Bergabung dan berkontribusi dalam tim kreatif kolaboratif Bogor Reference untuk pengembangan komunitas lokal.",
+    "image": "assets/images/projects/bogor-ref.jpg",
+    "tags": ["Tim", "Kolaborasi", "Komunitas"],
+    "icon": "layers",
+    "link": ""
+  }
+]

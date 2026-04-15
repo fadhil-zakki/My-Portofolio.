@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "Full-stack e-commerce app with cart, payment integration, and admin dashboard.",
+    "tags": ["Next.js", "Node.js", "MongoDB", "Stripe"],
+    "github": "https://github.com/yourusername/ecommerce",
+    "demo": "https://ecommerce-demo.vercel.app",
+    "image": "/images/project-placeholder.png",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "Collaborative task manager with real-time updates, drag-and-drop, and team workspaces.",
+    "tags": ["React", "Firebase", "Tailwind CSS"],
+    "github": "https://github.com/yourusername/taskapp",
+    "demo": "https://taskapp-demo.vercel.app",
+    "image": "/images/project-placeholder.png",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "Real-time weather dashboard with charts, location search, and 7-day forecast.",
+    "tags": ["React", "Chart.js", "OpenWeather API"],
+    "github": "https://github.com/yourusername/weather",
+    "demo": "https://weather-demo.vercel.app",
+    "image": "/images/project-placeholder.png",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Website",
+    "description": "This very website — a personal portfolio built with Next.js and Framer Motion.",
+    "tags": ["Next.js", "Framer Motion", "CSS"],
+    "github": "https://github.com/yourusername/portfolio",
+    "demo": "#",
+    "image": "/images/project-placeholder.png",
+    "featured": false
+  }
+]

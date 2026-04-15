@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Computer Networking",
+    "percent": 55,
+    "note": "Belajar topologi, routing dasar, dan konfigurasi jaringan",
+    "icon": "server"
+  },
+  {
+    "name": "Linux & Server",
+    "percent": 45,
+    "note": "Perintah dasar terminal Linux dan konfigurasi server sederhana",
+    "icon": "terminal"
+  },
+  {
+    "name": "Network Security",
+    "percent": 35,
+    "note": "Masih belajar konsep dasar keamanan jaringan",
+    "icon": "shield"
+  },
+  {
+    "name": "HTML / CSS",
+    "percent": 50,
+    "note": "Bisa bikin halaman web sederhana",
+    "icon": "code"
+  },
+  {
+    "name": "Media & Konten",
+    "percent": 75,
+    "note": "Pengalaman dari freelance WO Media",
+    "icon": "globe"
+  },
+  {
+    "name": "GitHub",
+    "percent": 40,
+    "note": "Masih belajar version control dan manajemen repo",
+    "icon": "github"
+  }
+]

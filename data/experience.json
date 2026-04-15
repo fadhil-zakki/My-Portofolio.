@@ -1,0 +1,34 @@
+[
+  {
+    "role": "S1 Teknik Informatika",
+    "org": "Universitas Gunadarma · Bekasi",
+    "year": "2021 – 2025",
+    "description": "Menempuh pendidikan S1 di bidang Teknik Informatika. Selama kuliah mulai tertarik dengan dunia jaringan komputer dan server, serta aktif mengikuti berbagai kegiatan kampus dan luar kampus.",
+    "tags": ["Gunadarma", "Informatika", "Fresh Graduate"],
+    "accentColor": "#f59e0b"
+  },
+  {
+    "role": "Freelance WO Media",
+    "org": "Wedding Organizer · Freelancer",
+    "year": "2022 – Sekarang",
+    "description": "Mengelola konten visual dan dokumentasi media untuk event pernikahan. Bertanggung jawab atas foto, video, editing, dan publikasi di sosial media klien.",
+    "tags": ["Freelance", "Foto", "Video", "Konten"],
+    "accentColor": "#6c63ff"
+  },
+  {
+    "role": "Volunteer",
+    "org": "TSP · Relawan",
+    "year": "2023",
+    "description": "Aktif sebagai relawan dalam kegiatan komunitas TSP. Ikut membantu pelaksanaan program, koordinasi lapangan, dan kegiatan sosial kemasyarakatan.",
+    "tags": ["Volunteer", "Komunitas", "Sosial"],
+    "accentColor": "#3ecfac"
+  },
+  {
+    "role": "Member Aktif",
+    "org": "Tim Bogor Reference",
+    "year": "2023 – Sekarang",
+    "description": "Bergabung sebagai anggota aktif Tim Bogor Reference. Berkontribusi dalam proyek kolaboratif dan ikut mengembangkan komunitas kreatif lokal Bogor.",
+    "tags": ["Tim", "Kolaborasi", "Bogor"],
+    "accentColor": "#6c63ff"
+  }
+]

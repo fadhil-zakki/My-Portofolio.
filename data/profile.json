@@ -1,0 +1,50 @@
+{
+  "name": "Fadhil Zakki Zulva",
+  "shortName": "Fadhil Zakki",
+  "initials": "FZ",
+  "role": "Networking & Server · Fresh Graduate",
+  "tagline": "Lulusan Universitas Gunadarma 2025 yang sedang mengembangkan diri di bidang jaringan komputer dan server. Masih terus belajar, tapi siap berkontribusi dan bertumbuh.",
+  "tags": ["Networking", "Server", "Fresh Graduate", "Bekasi, Indonesia"],
+  "photo": "assets/images/profile.jpg",
+  "location": "Bekasi, Jawa Barat",
+  "university": "Universitas Gunadarma",
+  "graduationYear": "2025",
+  "status": "Open to work",
+  "email": "fadhilzakki143@gmail.com",
+  "whatsapp": "6282131169262",
+  "stats": [
+    { "value": "2025", "label": "Lulus" },
+    { "value": "3",    "label": "Org." },
+    { "value": "∞",    "label": "Semangat" }
+  ],
+  "socials": [
+    { "name": "LinkedIn",  "url": "https://www.linkedin.com/in/fadhil-zakki-zulva", "icon": "linkedin"  },
+    { "name": "GitHub",    "url": "https://github.com/fadhil-zakki",                "icon": "github"    },
+    { "name": "Instagram", "url": "https://instagram.com/zaki.zulva",               "icon": "instagram" },
+    { "name": "Email",     "url": "mailto:fadhilzakki143@gmail.com",                "icon": "email"     },
+    { "name": "WhatsApp",  "url": "https://wa.me/6282131169262",                    "icon": "whatsapp"  }
+  ],
+  "about": [
+    "Halo! Saya Fadhil Zakki Zulva, fresh graduate dari Universitas Gunadarma tahun 2025. Saya punya ketertarikan besar di bidang jaringan komputer dan server — dua hal yang masih terus saya pelajari setiap harinya.",
+    "Selain kuliah, saya aktif sebagai freelancer di bidang Wedding Organizer Media, pernah menjadi volunteer di TSP, dan bergabung bersama Tim Bogor Reference. Pengalaman ini ngajarin saya banyak soal kerja tim, komunikasi, dan tanggung jawab.",
+    "Saya orangnya masih banyak belajar, tapi selalu semangat nyoba hal baru dan nggak takut salah. Kalau ada kesempatan kolaborasi atau belajar bareng, saya selalu terbuka!"
+  ],
+  "infoCards": [
+    { "label": "Nama",        "value": "Fadhil Zakki Zulva" },
+    { "label": "Lokasi",      "value": "Bekasi, Jawa Barat"  },
+    { "label": "Universitas", "value": "Gunadarma"           },
+    { "label": "Status",      "value": "Open to work", "highlight": true }
+  ],
+  "toolSections": [
+    {
+      "title": "Tools yang sedang saya pelajari",
+      "note": "Masih dalam proses belajar — terus berkembang tiap harinya.",
+      "items": ["Cisco Packet Tracer","Linux (Ubuntu)","VirtualBox","MikroTik","Wireshark","HTML/CSS","GitHub","VS Code","Canva","Google Workspace"]
+    },
+    {
+      "title": "Minat & bidang yang ingin dikembangkan",
+      "note": "",
+      "items": ["Computer Networking","Server Administration","Network Security","Linux System","Media Kreatif","IT Support"]
+    }
+  ]
+}
